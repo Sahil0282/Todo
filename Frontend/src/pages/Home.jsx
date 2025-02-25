@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../assets/Hero.png";
 import { NavLink } from "react-router-dom";
 
-// bg-gradient-to-r from-indigo-300 via-pink-500 to-yellow-200
+
 const Home = () => {
   return (
     <section className="bg-white  h-screen w-full flex  ">

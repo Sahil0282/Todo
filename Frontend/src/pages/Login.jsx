@@ -22,7 +22,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://127.0.0.1:3000/user/signin", {
+      const response = await fetch("https://ticker-z5a3.onrender.com/user/signin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
